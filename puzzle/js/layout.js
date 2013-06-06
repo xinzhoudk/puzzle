@@ -9,7 +9,6 @@ window.layOutImages = function() {
 }
 
 window.addEvent('domready', function() {
-	console.log("load?");
 	layOutImages();
 	$('showMore').addEvent('click', function(){
 		layOutImages();
